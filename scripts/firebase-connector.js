@@ -10,7 +10,7 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
-/*
+
 let myFlashcards = [ {
     "question": "Name this species of bird.",
     "image" : "images/barn-owl-2550068__340.webp",
@@ -61,6 +61,6 @@ fc.on("value", function(retrieve) {
 });
 
 // Print the data out as a JSON string or otherwise manipulate it
-console.log (' JSON string:' + jsonString )*/
+console.log (' JSON string:' + jsonString )
 
 
