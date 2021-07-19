@@ -40,6 +40,12 @@ let dblocation = firebase.database().ref('deck/flashcards');
 // Thus, a write operation also does an update
 dblocation.set(myFlashcards);
 
+// Make the database point to the location root -> deck -> flashcards
+// If the location doesn't exist is will be created
+firebase.database().ref('deck/flashcards'); 
+ 
+// Remove myFlashcards from the database
+firebase.database.remove()
 
 
 // As before,make the database point to the location where the data exists
