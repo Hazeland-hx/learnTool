@@ -14,8 +14,8 @@
     projectId: "best-learning-tool-21387",
     storageBucket: "best-learning-tool-21387.appspot.com",
     messagingSenderId: "282849610781",
-    appId: "1:282849610781:web:598cee1b1dbbfb54870af4",
-    measurementId: "G-447EF9KXRC"
+    appId: "1:282849610781:web:ea557c63a6021652870af4",
+    measurementId: "G-FLE3SHLRND"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
